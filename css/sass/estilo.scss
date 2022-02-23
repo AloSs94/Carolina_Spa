@@ -1,0 +1,21 @@
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+@import url('https://fonts.googleapis.com/css2?family=Italianno&family=Lato:wght@400;700;900&family=Raleway:wght@400;700;900&display=swap');
+@import 'variables';
+@import "../../node_modules/bootstrap/scss/bootstrap";
+@import 'MenuRedes';
+@import 'navegacion';
+@import 'Slider';
+@import 'Bienvenida';
+@import 'Servicios';
+@import 'Horarios';
+@import 'Productos';
+@import 'Cita';
+@import'Footer';
+@import 'Hero';
+//estilo del cuerpo
+body{
+    background-color: #f8f8f8;
+    
+}
+

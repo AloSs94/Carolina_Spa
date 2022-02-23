@@ -1,0 +1,43 @@
+@import '../sass/fontAwesome/fontawesome';
+@import '../sass/fontAwesome/solid';
+@import '../sass/fontAwesome/brands';
+
+
+.sociales ul{
+    list-style: none;
+    margin: 0;
+    padding:0; 
+}
+
+.sociales ul li{
+    position: relative;
+    display: inline-block;
+}
+
+.sociales ul li a::before{
+    @extend %fa-icon;
+    @extend.fab;
+    display: inline-block;
+    vertical-align: top;
+    padding:1rem .48rem;
+    content: '\f08e';
+    -webkit-font-smoothing:antialiased;
+    font-size: 2rem;
+    color: #e082a8;
+}
+
+.sociales ul li a[href*="https://www.facebook.com/"]::before{
+    content:'\f09a';
+}
+.sociales ul li a[href*="https://www.twitter.com/"]::before{
+    content:'\f099';
+}
+.sociales ul li a[href*="https://www.instagram.com/"]::before{
+    content:'\f16d';
+} 
+.sociales ul li a[href*="https://www.pinterest.com"]::before{
+    content:'\f0d2';
+} 
+.sociales ul li a[href*="https://www.youtube.com/"]::before{
+    content:'\f167';
+} 

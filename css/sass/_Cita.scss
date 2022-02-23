@@ -1,0 +1,30 @@
+.cita {
+  background: {
+    image: url(../../imgs/bg_citas.jpg);
+    size: cover;
+    repeat: no-repeat;
+    position: center center;
+    attachment: fixed;
+  }
+  color: $blanco;
+  font-family: $Lato;
+
+
+
+ 
+  .btn-primary {
+    background-color: $primary;
+    padding: 1rem 5rem;
+    border: 0;
+    border-radius: 0;
+    font: {
+      family: $Lato;
+      size: 1.2rem;
+    }
+    text-transform: uppercase;
+    &:focus{
+      border: 0;
+      box-shadow: none;
+    }
+  }
+}

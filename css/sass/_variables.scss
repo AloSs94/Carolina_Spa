@@ -1,0 +1,39 @@
+//Variables a usar
+
+$hover: #39a68b;
+$Logo: #fff;
+
+//Tamaño
+$font-size: 1.4rem;
+
+$light-cyan:    #8ed3cc;
+$soft-pink:     #e082a8;
+$gray:          #f8f8f8;
+$soft-magenta:  #ef8bef;
+$purple:        #b882ee;
+$dark-gray:    #979797;
+// scss-docs-start theme-color-variables
+$primary:   $light-cyan;
+$secondary:  $soft-pink;
+$success:       $purple;
+$info:      $soft-magenta;
+$warning: $yellow !default;
+$danger: $red !default;
+$light: $primary;
+$dark: $gray-900 !default;
+
+//carousel
+$carousel-indicator-width:           10px;
+$carousel-indicator-height:          10px;
+$carousel-indicator-hit-area-height: 10px !default;
+$carousel-indicator-spacer:          3px !default;
+$carousel-indicator-opacity:         1;
+$carousel-indicator-active-bg:       $soft-magenta;
+$carousel-indicator-active-opacity:  1 !default;
+$carousel-indicator-transition:      opacity .6s ease !default;
+
+
+//fuentes
+$Italianno:'Italianno', cursive;
+$Lato:'Lato',sans-serif;
+$Raleway:'Raleway',sans-serif;

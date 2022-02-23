@@ -1,0 +1,16 @@
+.carousel-indicators {
+  button {
+    border-radius: 100%;
+    &.active {
+      background-color: $primary;
+    }
+  }
+}
+.carousel-caption {
+  h3 {
+    font-family: $Raleway;
+    font-size: 2rem;
+    font-weight: 900;
+    color: $blanco;
+  }
+}

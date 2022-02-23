@@ -1,0 +1,24 @@
+.Bienvenida {
+  p {
+    font: {
+      family: $Lato;
+      size: 1.6rem;
+    }
+    color: $dark-gray;
+  }
+  .titulo {
+    line-height: 2.4rem;
+    font: {
+      size: 2.8rem;
+      family: $Lato;
+    }
+
+    span {
+      font: {
+        family: $Italianno;
+        size: 4rem;
+      }
+      color: $secondary;
+    }
+  }
+}

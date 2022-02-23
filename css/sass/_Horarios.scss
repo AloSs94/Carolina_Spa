@@ -1,0 +1,38 @@
+.horarios {
+  background-color: $primary;
+  color: $blanco;
+  h2 {
+    font: {
+      size: 2.2rem;
+      family: $Lato;
+    }
+  }
+  .table {
+    color: $blanco;
+    border: 2px solid $secondary;
+
+    thead {
+      background-color: $secondary;
+    
+    }
+    td, thead tr  th{
+      border: none;
+    }
+    tbody tr td {
+      padding: 0.35rem;
+      font: {
+        size: 1.2rem;
+        family: $Lato;
+      }
+    }
+  }
+  .bg-horario {
+    background: {
+      image: url(../../imgs/bg_horarios.jpg);
+      repeat: no-repeat;
+      position: center center;
+      size: cover;
+    }
+    min-height: 400px;
+  }
+}

@@ -1,0 +1,1 @@
+let Carousel=document.querySelector("#slider-principal"),Crousel=new bootstrap.Carousel(Carousel,{interval:5e3});

@@ -1,0 +1,36 @@
+
+.img-servicio{
+    margin-bottom: 3rem;
+    img{
+        border: 6px solid #fff;
+        transition: transform .3s ease;
+        &:hover{
+            transform: scale(1.2) rotate(10deg)
+        }
+    }
+    .servicio-info{
+
+        z-index: 1;
+        margin: -5rem 0 0 0;
+        background-color: #fff;
+        padding-top: 1.5rem;
+        padding-left: 0;
+        padding-right: 0;
+        width: 300px;
+        
+        .btn-primary{
+            margin:10px 0 0 0; 
+            width: 100%;
+            background-color: $secondary;
+            border: none;
+            border-radius: 0;
+            padding:1rem 0;
+            font-size:20px;
+            &:focus{
+                border: 0;
+                box-shadow: none;
+              }
+        }
+      @extend .Bienvenida,.titulo, span;
+    }
+}

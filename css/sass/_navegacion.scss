@@ -1,0 +1,30 @@
+$blanco: $Logo;
+
+.navbar-light .navbar-toggler {
+  background-color: $blanco;
+}
+.navbar-light .navbar-brand {
+  color: $blanco;
+}
+.nav-principal{
+  margin-top: 1rem;
+  background-color: $primary !important;
+}
+.contorno {
+  background-image: url(../../imgs/border_horizontal.png),
+    url(../../imgs/border_horizontal.png);
+  background-repeat: repeat-x;
+  background-position: 0px top, 0px bottom;
+  padding: 10px 5px;
+  border: 0 !important;
+}
+.nav-link {
+  color: $blanco;
+  font-family: $Raleway;
+  font-size: 1.4rem;
+  transition: all 0.5s ease-in-out;
+  &:hover {
+    background-color: #90e5ee;
+    color: $soft-pink;
+  }
+}
